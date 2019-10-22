@@ -1,12 +1,10 @@
-
 // var ultimoItem = videoGames.pop();
 
 // videoGames.push('Stadia');
 
 // var tamanhoArray = videoGames.length;
 
-var videoGames = ['PS4', 'XBOX', 'Switch', 'Stadia', 'Steam', 'Nintendo'];
-
+var videoGames = ["PS4", "XBOX", "Switch", "Stadia", "Steam", "Nintendo"];
 
 // Loop for interagindo com Array
 
@@ -17,11 +15,13 @@ var videoGames = ['PS4', 'XBOX', 'Switch', 'Stadia', 'Steam', 'Nintendo'];
 //   }
 // }
 
-var frutas = ['Banana', 'Laranja', 'Goiaba', 'Maçã', 'Uva'];
+var frutas = ["Banana", "Laranja", "Goiaba", "Maçã", "Uva"];
 
+frutas.forEach(fruta => console.log(fruta));
 
-frutas.forEach(function(fruta) {
-  console.log(fruta);
+const array = [1, 3, 5, 7];
+
+array.forEach(item => {
+  const soma = item + 1;
+  console.log(soma);
 });
-
-
